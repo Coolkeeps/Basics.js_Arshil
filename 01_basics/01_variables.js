@@ -16,9 +16,11 @@ accountPassword = "234242"
 accountCity = "delhi"
 //variables can also be considered without using fixed keywords and they can also be assigned/changed too
 
+let accountHolder ;
+// no values are considered as undefined variables
 
 
-console.table([accountId,accountEmail,accountPassword,accountCity])
+console.table([accountId,accountEmail,accountPassword,accountCity,accountHolder])
 
 //never use "var" variable 
 //always use "let" and "const" variables
